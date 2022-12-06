@@ -34,18 +34,12 @@ export function Login({ navigation }) {
 
   return (
     <Container>
-      <Title>Login</Title>
-      {/* <UserContainer>
-                <UserLabel>Username</UserLabel>
-                <UserField/>
-                <UserLabel>Password</UserLabel>
-                <UserField/>
-            </UserContainer> */}
+      <Title>Authentication APP</Title>
       <LoginContainer>
         <Btn
           onPress={handleGoogleSignIn}
         >
-          <BtnText>BTN</BtnText>
+          <BtnText>Google Login</BtnText>
         </Btn>
       </LoginContainer>
     </Container>

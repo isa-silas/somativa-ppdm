@@ -1,6 +1,5 @@
 import styled from "styled-components/native";
 import icon from 'react-native-vector-icons/FontAwesome5'
-import imgBtn from '../../assets/btn_google_signin_light_normal_web.png';
 
 
 export const Container = styled.View`
@@ -27,6 +26,7 @@ export const UserContainer=styled.View`
 export const Title = styled.Text`
     color: #000;
     font-size: 32px;
+    font-style: italic;
 `
 
 export const UserField = styled.TextInput`
@@ -41,7 +41,7 @@ export const UserLabel = styled.Text`
     padding: 10%;
 `
 export const LoginContainer = styled.View`
-    height:40%;
+    height:10%;
     width: 75%;
     align-items: center;
     justify-content: center;
@@ -52,17 +52,14 @@ export const LoginContainer = styled.View`
     margin:10%;
 `
 export const Btn = styled.TouchableOpacity`
-    // display: inline-block;
-    background-image: url(${imgBtn});
-    background-color:#000;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center center;
-    height: 20%;
-    width: 80%;
+    background-color:#ebe128
+    height: 70%;
+    width: 90%;
     align-items: center;
     justify-content: center;
 `
 export const BtnText = styled.Text`
-    color: transparent;
+    color: #fff;
+    font-style:bold;
+    font-size: 20;
 `
